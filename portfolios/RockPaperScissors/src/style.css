@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    background-color: #ffff;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+.result_image {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.result_image img {
+    width: 80px;
+}
+
+.user_result img {
+    transform: rotate(90deg);
+}
+
+.cpu_result img {
+    transform: rotate(-90deg) rotateY(180deg);
+}
+
+.container.start .user_result {
+    transform-origin: left;
+    animation: userShake 0.7s ease infinite;
+}
+
+@keyframes userShake {
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+.container.start .cpu_result {
+    transform-origin: right;
+    animation: cpuShake 0.7s ease infinite;
+}
+
+@keyframes cpuShake {
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+.result_text p {
+    text-align: center;
+    color: #7d2ae8;
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+.option_feild {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.option_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.container.start .option_image {
+    pointer-events: none;
+}
+
+.option_image:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+}
+
+.option_image img {
+    width: 50px;
+    pointer-events: none;
+}
+
+.option_image p {
+    color: #7d2ae8;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.score_board {
+    background-color: #ffff;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score {
+    font-size: 1.2rem;
+    color: #7d2ae8;
+}
+
+.score span {
+    font-weight: 600;
+    color: #000;
+}
+
+@media screen and (max-width: 480px) {
+    .result_image {
+        flex-direction: column;
+        align-items: center;
+    }
+    .result_image img {
+        margin-bottom: 1rem;
+    }
+    .score_board {
+        flex-direction: column;
+        align-items: center;
+    }
+    .score {
+        text-align: center;
+    }
+}
