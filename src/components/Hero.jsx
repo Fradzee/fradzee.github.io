@@ -122,27 +122,27 @@ export default function Hero() {
         </span>
 
         <div ref={title2} className="w-full flex flex-col items-center justify-center mb-0 min-h-[5.5rem] md:min-h-[220px]">
-          <h1 className="hero-title-mobile hero-main-title font-montserrat font-black text-white uppercase mb-4 w-full max-w-full px-2 text-center flex justify-center gap-[0.02em] flex-wrap">
-            {'SAFRAS'.split('').map((c, i) => (
-              <span key={i} className="hero-char inline-block overflow-hidden pb-1">
-                <span className="hero-char-inner inline-block will-change-transform">{c}</span>
-              </span>
-            ))}
-          </h1>
-          <div className="hero-title-desktop-wrap w-full mb-0 will-change-transform [perspective:900px]">
-            <TextPressure
-              text="SAFRAS"
-              flex={false}
-              alpha={false}
-              stroke={false}
-              width={true}
-              weight={true}
-              italic={true}
-              textColor="#FFFFFF"
-              minFontSize={60}
-            />
-          </div>
+        <h1 className="hero-title-mobile md:hidden hero-main-title font-montserrat font-black text-white uppercase mb-4 w-full max-w-full px-2 text-center flex justify-center gap-[0.02em] flex-wrap">
+          {'SAFRAS'.split('').map((c, i) => (
+            <span key={i} className="hero-char inline-block overflow-hidden pb-1">
+              <span className="hero-char-inner inline-block will-change-transform">{c}</span>
+            </span>
+          ))}
+        </h1>
+        <div className="hero-title-desktop-wrap hidden md:block w-full mb-0 will-change-transform [perspective:900px]">
+          <TextPressure
+            text="SAFRAS"
+            flex={false}
+            alpha={false}
+            stroke={false}
+            width={true}
+            weight={true}
+            italic={true}
+            textColor="#FFFFFF"
+            minFontSize={60}
+          />
         </div>
+      </div>
 
         <div ref={subtitleWrap} className="mt-4 md:mt-12 will-change-[clip-path,opacity,transform]">
           <TextType
