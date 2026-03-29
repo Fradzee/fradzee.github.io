@@ -16,58 +16,58 @@ export default function Portfolio() {
     {
       title: "Book Beacon",
       category: "Create Books",
-      image: "/public/portfolios/thumbnails/bookbeacon.png",
+      image: "/portfolios/thumbnails/bookbeacon.png",
       color: "text-primary",
-      link: "/public/portfolios/BookBeacon/main.html"
+      link: "/portfolios/BookBeacon/main.html"
     },
     {
       title: "JavaScript Engine",
       category: "Animation",
-      image: "/public/portfolios/thumbnails/jsengine.png",
+      image: "/portfolios/thumbnails/jsengine.png",
       color: "text-tertiary",
-      link: "/public/portfolios/JavaScript Execution Visualizer/index.html" 
+      link: "/portfolios/JavaScript Execution Visualizer/index.html" 
     },
     {
       title: "Korrel",
       category: "Coding Language",
-      image: "/public/portfolios/thumbnails/korrel.png",
+      image: "/portfolios/thumbnails/korrel.png",
       color: "text-tertiary",
       link: "https://korrel.vercel.app/" 
     },
     {
       title: "Obsidian Gallery",
       category: "Personal Portfolio",
-      image: "/public/portfolios/thumbnails/obsidiangallery.png",
+      image: "/portfolios/thumbnails/obsidiangallery.png",
       color: "text-tertiary",
-      link: "/public/portfolios/Obsidian Gallery/index.html" 
+      link: "/portfolios/Obsidian Gallery/index.html" 
     },
     {
       title: "Art of Flavour",
       category: "Restuarant Website",
-      image: "/public/portfolios/thumbnails/resturant.png",
+      image: "/portfolios/thumbnails/resturant.png",
       color: "text-tertiary",
-      link: "/public/portfolios/Cafe Website/index.html" 
+      link: "/portfolios/Cafe Website/index.html" 
     },
     {
       title: "Vogue Man",
       category: "E-Commerce",
-      image: "/public/portfolios/thumbnails/vogueman.png",
+      image: "/portfolios/thumbnails/vogueman.png",
       color: "text-tertiary",
-      link: "/public/portfolios/Shopping Website/my-store/index.html" 
+      link: "/portfolios/Shopping Website/my-store/index.html" 
     },
     {
       title: "Web Iphone",
       category: "Web Design",
-      image: "/public/portfolios/thumbnails/iphone.png",
+      image: "/portfolios/thumbnails/iphone.png",
       color: "text-primary",
-      link: "/public/portfolios/IPhone Project/sources/index.html" 
+      link: "/portfolios/IPhone Project/sources/index.html" 
     },
     {
       title: "Lonely Snake",
       category: "Game",
-      image: "/public/portfolios/thumbnails/lonelysnake.png",
+      image: "/portfolios/thumbnails/lonelysnake.png",
       color: "text-tertiary",
-      link: "/public/portfolios/Lonely Snake/sources/index.html" 
+      link: "/portfolios/Lonely Snake/sources/index.html" 
     },
   ];
 
