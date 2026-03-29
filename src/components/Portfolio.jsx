@@ -23,49 +23,49 @@ export default function Portfolio() {
     {
       title: "JavaScript Engine",
       category: "Animation",
-      image: "portoflios/thumbnails/jsengine.png",
+      image: "/public/portfolios/thumbnails/jsengine.png",
       color: "text-tertiary",
       link: "/public/portfolios/JavaScript Execution Visualizer/index.html" 
     },
     {
       title: "Korrel",
       category: "Coding Language",
-      image: "portoflios/thumbnails/korrel.png",
+      image: "/public/portfolios/thumbnails/korrel.png",
       color: "text-tertiary",
       link: "https://korrel.vercel.app/" 
     },
     {
       title: "Obsidian Gallery",
       category: "Personal Portfolio",
-      image: "portoflios/thumbnails/obsidiangallery.png",
+      image: "/public/portfolios/thumbnails/obsidiangallery.png",
       color: "text-tertiary",
       link: "/public/portfolios/Obsidian Gallery/index.html" 
     },
     {
       title: "Art of Flavour",
       category: "Restuarant Website",
-      image: "portoflios/thumbnails/resturant.png",
+      image: "/public/portfolios/thumbnails/resturant.png",
       color: "text-tertiary",
       link: "/public/portfolios/Cafe Website/index.html" 
     },
     {
       title: "Vogue Man",
       category: "E-Commerce",
-      image: "portoflios/thumbnails/vogueman.png",
+      image: "/public/portfolios/thumbnails/vogueman.png",
       color: "text-tertiary",
       link: "/public/portfolios/Shopping Website/my-store/index.html" 
     },
     {
       title: "Web Iphone",
       category: "Web Design",
-      image: "portoflios/thumbnails/iphone.png",
+      image: "/public/portfolios/thumbnails/iphone.png",
       color: "text-primary",
       link: "/public/portfolios/IPhone Project/sources/index.html" 
     },
     {
       title: "Lonely Snake",
       category: "Game",
-      image: "portoflios/thumbnails/lonelysnake.png",
+      image: "/public/portfolios/thumbnails/lonelysnake.png",
       color: "text-tertiary",
       link: "/public/portfolios/Lonely Snake/sources/index.html" 
     },
